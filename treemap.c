@@ -72,7 +72,7 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
             aux = aux->left;
         }
         else{
-            aux = aux->right
+            aux = aux->right;
         }
     }
     return NULL;
