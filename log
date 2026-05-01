@@ -80,3 +80,9 @@ treemap.c:208:5: error: expected ‘,’ or ‘;’ before ‘tree’
   208 |     tree->current = menor;
       |     ^~~~
 870b47f
+Fri May  1 07:14:03 PM UTC 2026: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|2
+total_score: 40/60
+e1783bd

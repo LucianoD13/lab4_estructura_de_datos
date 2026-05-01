@@ -204,7 +204,7 @@ Pair * firstTreeMap(TreeMap * tree) {
     if(tree == NULL || tree->root == NULL){
         return NULL;
     }
-    TreeNode* menor = minimum(tree->root)
+    TreeNode* menor = minimum(tree->root);
     tree->current = menor;
     return menor->pair;
 }
