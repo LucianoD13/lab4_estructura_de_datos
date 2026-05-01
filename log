@@ -92,3 +92,14 @@ Fri May  1 07:27:19 PM UTC 2026:
  tests:  22|2
 total_score: 43/60
 7d9c6eb
+Fri May  1 07:30:57 PM UTC 2026: 
+ treemap.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+Compilation failed
+In file included from test.c:4:
+treemap.c: In function ‘nextTreeMap’:
+treemap.c:224:15: error: statement with no effect [-Werror=unused-value]
+  224 |         parent->parent;
+      |         ~~~~~~^~~~~~~~
+cc1: all warnings being treated as errors
+3991d8c
